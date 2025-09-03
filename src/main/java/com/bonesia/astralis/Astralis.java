@@ -1,5 +1,6 @@
 package com.bonesia.astralis;
 
+import com.bonesia.astralis.item.ModItemGroups;
 import com.bonesia.astralis.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class Astralis implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModItems.registerModItems();
+        ModItemGroups.registerItemGroups();
 	}
 }

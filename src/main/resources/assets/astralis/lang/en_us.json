@@ -1,3 +1,5 @@
 {
-  "item.astralis.grave_scythe": "Grave Scythe"
+  "item.astralis.grave_scythe": "Grave Scythe",
+
+  "itemgroup.astralis.grave_scythe_items": "Astralis Mod"
 }

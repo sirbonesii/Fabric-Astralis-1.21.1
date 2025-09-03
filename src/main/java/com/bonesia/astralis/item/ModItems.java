@@ -18,10 +18,5 @@ public class ModItems {
 
     public static void registerModItems() {
         Astralis.LOGGER.info("Registering Mod Items for " + Astralis.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
-           entries.add(GRAVE_SCYTHE);
-        });
-
     }
 }
