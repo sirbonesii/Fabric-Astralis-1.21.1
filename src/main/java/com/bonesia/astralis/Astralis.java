@@ -1,5 +1,6 @@
 package com.bonesia.astralis;
 
+import com.bonesia.astralis.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,8 +12,6 @@ public class Astralis implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        ModItems.registerModItems();
 	}
 }
-// git config --global user.email "sir.bonesmc@gmail.com"
-// git config --global user.name "sirbonesii"
